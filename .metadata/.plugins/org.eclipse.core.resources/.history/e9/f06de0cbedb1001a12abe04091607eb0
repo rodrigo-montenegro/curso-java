@@ -1,0 +1,16 @@
+package main;
+
+public class OperadoresLogicos {
+
+	public static void main(String[] args) {
+		// Operadores logicos
+		//and (y), or (o) y not (no)
+		
+		boolean resultado;
+		
+		resultado = 5 >= 5 && true && 10 > 9;
+		System.out.println(resultado);
+
+	}
+
+}
